@@ -18,8 +18,6 @@ In show.pdf.prawn:
 
 If you need to specify document options, add a @pdf line to your show method (optional):
 
-In ThingsController
-
     def show
       @pdf = Prawn::Document.new(:page_layout => :landscape)
     end
