@@ -6,6 +6,12 @@ Uber simple template handler for Prawn PDF views.
 Installation
 ------------
 
+Add the following to your environment.rb Initializer block:
+
+    config.gem 'seven1m-prawn_template_handler', :source => 'http://gems.github.com', :lib => 'prawn_template_handler'
+
+Or, use the traditional plugin install method:
+
     script/plugin install git://github.com/seven1m/prawn_template_handler.git
 
 Usage
