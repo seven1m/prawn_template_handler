@@ -8,5 +8,8 @@ Gem::Specification.new do |s|
   s.description = "Uber simple template handler for Prawn views in Rails"
   s.has_rdoc = false
   s.authors  = ["Tim Morgan"]
-  s.files    = ["README.markdown", "lib/prawn_template_handler.rb"]
+  s.files    = [
+    "README.markdown",
+    "lib/prawn_template_handler.rb"
+  ]
 end
